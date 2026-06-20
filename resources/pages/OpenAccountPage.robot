@@ -31,7 +31,7 @@ Account Overview
     [Documentation]  Checking if all the account is visible
     Wait Until Page Contains Element   ${acc_overview}  2s
     Click Element  ${acc_overview}
-    Wait Until Page Contains Element    ${frst_acc}
+    Wait Until Page Contains Element    ${frst_acc}  15s
     ${frst_acc}=  Get Text  ${frst_acc}
     RETURN  ${frst_acc}
 
