@@ -3,9 +3,9 @@ Resource  ../../../resources/keywords/api_keywords.robot
 
 
 *** Test Cases ***
-TC-ACC-03
+TC-ACC-05
     [Documentation]  Getting and verifying specific account details
     [Tags]   smoke  regression
     Get Customer ID
-    Get Accounts of Customer
-    Get Account Details
+    Get Accounts Of Customer
+    Create New Account

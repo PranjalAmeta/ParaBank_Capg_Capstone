@@ -11,7 +11,7 @@ Test Teardown  Close Application
 *** Test Cases ***
 TC-UI-TF-01
     [Documentation]  Verify that user is able to transfer funds between accounts
-    [Tags]  ui smoke
+    [Tags]  ui smoke  negative
     # Log in to Para Bank
     Permanent temp log
     Open Account    SAVINGS

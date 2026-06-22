@@ -12,7 +12,7 @@ Test Teardown  Close Application
 *** Test Cases ***
 TC-UI-TF-03
     [Documentation]  Verify that if user is able to transfer funds with negative amount
-    [Tags]  smoke  regression
+    [Tags]  smoke  regression   negative
     # Log in to Para Bank
     Permanent temp log
     Open Account    SAVINGS

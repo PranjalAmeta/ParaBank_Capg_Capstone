@@ -10,4 +10,5 @@ Test Teardown    Close Application
 *** Test Cases ***
 TC-UI-LGN-001
     [Documentation]  Verify that user can log in with valid credentials
+    [Tags]   smoke  regression
     Log in to Para Bank

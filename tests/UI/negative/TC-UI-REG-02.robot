@@ -10,4 +10,5 @@ Test Teardown    Close Application
 *** Test Cases ***
 TC-UI-REG-001
     [Documentation]  Verify that user can register with valid details
+    [Tags]  smoke  regression
     Register With Invalid Confirm Password
